@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+}
+.card {
+    border: #000 thin solid;
+    height: 400px;
+    width: 400px;
+    display: grid;
+    place-items: center;
+    font-size: 2rem;
+    border-radius: 7px;
+    margin: auto;
+}
+.form-container {
+    width: 400px;
+}
+
+.form input {
+    border: 1px solid #0ace73;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    outline: #0ace73;
+}
